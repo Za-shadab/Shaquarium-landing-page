@@ -1,0 +1,194 @@
+@media (min-width: 250px) and (max-width:600px){
+    .title{
+        font-size: 2rem;
+    }
+    .bg{
+        position: absolute;
+        width: 2500px;
+        top: calc(50% - 390px);
+        left: calc(50% + 10px);
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    .bg1{
+        position: absolute;
+        width: 900px;
+        top: calc(50% - 100px);
+        left: calc(50% + 300px);
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+    .bg2{
+        position: absolute;
+        width: 500px;
+        top: calc(50% + 69px);
+        left: calc(50% + 40px);
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        visibility: hidden;
+    }
+    .bg3{
+        position: absolute;
+        width: 192px;
+        top: calc(50% + 99px);
+        left: calc(50% + 430px);
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    .bg4{
+        position: absolute;
+        width: 592px;
+        top: calc(50% + 269px);
+        left: calc(50% - 430px);
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    .bg5{
+        position: absolute;
+        width: 592px;
+        top: calc(50% + 100px);
+        left: calc(50% + 600px);
+        transform: translate(-50%, -50%);
+        z-index: 3;
+    }
+    .bg6{
+        position: absolute;
+        width: 592px;
+        top: calc(50% - 220px);
+        left: calc(50% + 430px);
+        transform: translate(-50%, -50%);
+        z-index: 3;
+    }
+    .bg7{
+        position: absolute;
+        width: 300px;
+        top: calc(50% + 220px);
+        left: calc(50% - 550px);
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    .bg8{
+        position: absolute;
+        width: 350px;
+        top: calc(50% - 220px);
+        left: calc(50% - 30px);
+        transform: translate(-50%, -50%);
+        z-index: 5;
+    }
+    .bg9{
+        position: absolute;
+        width: 300px;
+        top: calc(50% - 240px);
+        left: calc(50% + 30px);
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+    .b10{
+        position: absolute;
+        width: 700px;
+        top: calc(50% + 140px);
+        left: calc(50% - 330px);
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+    .navbar ul{
+        display: none;
+    }
+    #rot-text,.current-para p,.change-para p{
+        font-size: 2rem;
+    }
+    .text1 p{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .text1{
+        margin-left: 0;
+    }
+    .card-container{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .card1, .card2{
+        width: 100vw;
+        height: 80vh;
+        /* border-radius: 8px; */
+        cursor: pointer;
+        overflow: hidden;
+        margin-top: 2vh;
+    }
+    .right-div{
+        display: none;
+    }
+    .left-div{
+        width: 100%;
+        min-height: 250vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        /* margin-top: 2vh; */
+        margin-left: 2vw;
+    }
+    .cards{
+        width: 95vw;
+        height: 80vh;
+        position: relative;
+    }
+    .parent-container{
+        display: block;   
+    }
+    .three-d-inner-div{
+        height: 250vh;
+    }
+    #oscar-img {
+        width: 100vw;
+        height: 100%;
+        object-fit: cover;
+    }
+    .oscar-heading,.betta-heading,.arowana-heading{
+        font-size: 5rem;
+    }
+    .shaq-head{
+        font-size: 3rem;
+    }
+    .second-shaq{
+    font-size: 1rem;
+    }
+    .contact-div{
+    width: 90vw;
+    height: 70%;
+    margin-top: 2vh;
+    display: block;
+    }
+    .contact-div h2{
+    font-size: 2rem;
+    }
+    button{
+        width: 20vw;
+        height: 5vh;
+        background-color: #000;
+        border: 1px solid #ffff;
+        cursor: pointer;
+        transition: color .35s linear, outline .35s linear;
+        font-size: 1.1rem;
+        margin-top: 2vh;
+    }
+    .footer-links{
+        display: flex;
+        width: 90vw;
+        gap: 10vw;
+        margin-top: 10vh;
+    }
+    .credits-container{
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 1vh;
+        margin-top: 0;
+    }
+}
